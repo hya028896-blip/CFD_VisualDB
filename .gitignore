@@ -1,0 +1,34 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local CFD databases, backups, and import reports
+data/*
+!data/.gitkeep
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+patient-import-report-*.json
+
+# CFD source/result files must remain local
+*.vtu
+*.vtp
+*.pvd
+*.vtk
+
+# Local verification artifacts and editor settings
+work/
+.idea/
+.vscode/
+*.log
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
