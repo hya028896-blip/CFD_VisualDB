@@ -120,6 +120,10 @@ python run.py --smoke-test
 
 这是一个可运行的早期原型，适合功能验证和工作流迭代。用于科研生产环境前，建议进一步补充大数据性能测试、异常恢复、数据迁移和结果复现验证。
 
+## 许可证
+
+本项目采用 [MIT License](LICENSE)。任何人都可以使用、复制、修改、合并、发布和再分发本软件，也可以用于商业用途，但必须保留原版权声明和许可证文本。
+
 ---
 
 **English summary:** CFD VisualDB is a Python desktop prototype for organizing VTU/VTP simulation datasets and comparing them in synchronized multi-view VTK/PyVista renderers. It includes metadata indexing, scalar visualization, streamlines, persistent ROI selection and regional statistics while keeping large simulation files outside the SQLite database and Git repository.
