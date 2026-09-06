@@ -34,7 +34,7 @@ CFD VisualDB 是一个面向 CFD 仿真结果的桌面数据管理与多视图�
 ### 1. 获取代码
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/hya028896-blip/CFD_VisualDB.git
 Set-Location CFD_VisualDB
 ```
 
